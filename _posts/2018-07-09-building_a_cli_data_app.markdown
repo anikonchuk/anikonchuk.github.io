@@ -13,7 +13,7 @@ In order to start the project, I needed to figure out my focus.  I needed to fin
 
 My app, Rotten Tomatoes’ Fresh TV, would show users RottenTomatoes.com's current TV shows that are “Certified Fresh”, that is, shows that have at least 75% positive reviews from at least twenty sources, including at least five from Top Critics. Users would have the option to get even more information about each show, including a summary of critical reviews and a synopsis. From this starting vision, I planned my CLI. I wanted to have a clear and easy user interface to make the data as accessible as possible. My initial plan was for the following:
 * The user would be greeted and presented a list of Rotten Tomatoes’ current “Certified Fresh” TV shows, along with their TomatoMeter scores.
-* The user could then choose from the list of TV shows and be presented more information, like a synopsis, the critic’s consensus, and a link for more information. 
+* The user could then choose from the list of TV shows and be presented more information, like a synopsis, the critics' consensus, and a link for more information. 
 * If the user needed to see the list of TV shows again, they could type ‘list’, or they could type ‘exit’ to leave the program.
 * Upon typing exit, the user would find a “goodbye” message.
 Once I had this initial user experience planned, I began working on building the app itself.
