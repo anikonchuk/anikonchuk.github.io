@@ -48,7 +48,7 @@ def self.by_shortest_time
 end
 ```
 
-I also created scope methods that sorted the Recipes by name and by most recently added.
+I also created scope methods that sorted the Recipes by name, by most recently added, and by fewest ingredients.
 
 ## Issues with a Nested Form
 
