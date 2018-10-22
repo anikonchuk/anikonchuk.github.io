@@ -121,4 +121,10 @@ Finally, I wanted to give my table a bit more styling, since it was the primary 
 
 ## Reflection
 
-Overall, I am happy with how my application turned out. I feel the functionality of the app provides for a smooth and easy user experience, and I am happy with the way the app looks in the end. I have really learned a lot more about Rails by building an application from scratch, and I’m starting to feel like a real developer after all the issues I faced and the problem-solving that came with them involving a lot of Googling and collaboration. If I were to recommend any further refinements to the application, I would like to see the ability to add comments and reviews to the recipes. In exploring this, using email addresses as User identifiers makes that difficult, for the privacy reasons explored above. However, I am proud of the work I have done as it stands. If you’d like to view my source code for the project, it is available at https://github.com/anikonchuk/quick-and-easy-recipes.
+Overall, I am happy with how my application turned out. I feel the functionality of the app provides for a smooth and easy user experience, and I am happy with the way the app looks in the end. I have really learned a lot more about Rails by building an application from scratch, and I’m starting to feel like a real developer after all the issues I faced and the problem-solving that came with them involving a lot of Googling and collaboration. 
+
+If I were to recommend any further refinements to the application, I would like to see the ability to add comments and reviews to the recipes. In exploring this, using email addresses as User identifiers makes that difficult, for the privacy reasons explored above. 
+
+Another issue I cannot seem to resolve is that my CSS styling of my table seems to disappear after creating or updating a recipe, but reappears when I refresh the page. I suspect that this is due to my style sheet not being part of the Asset Pipeline, but am not sure how to fix that just yet.
+
+However, I am proud of the work I have done as it stands. If you’d like to view my source code for the project, it is available at https://github.com/anikonchuk/quick-and-easy-recipes.
