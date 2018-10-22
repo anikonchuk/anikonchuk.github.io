@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "QuickAndEasyRecipes- A Rails App"
-date:       2018-10-22 16:00:44 +0000
+date:       2018-10-22 12:00:44 -0400
 permalink:  quickandeasyrecipes-_a_rails_app
 ---
 
