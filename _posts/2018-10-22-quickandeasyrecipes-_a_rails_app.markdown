@@ -82,7 +82,7 @@ form_for [@user, @recipe] do |f|
 end
 ```
 
-Once we had this figured out, I was able to revise my custom setter method to deal with the new params, which ended up as follows:
+I also had to move my `accepts_nested_attributes_for` macro from my Ingredient model to my Quantity model. Once we had this figured out, I was able to revise my custom setter method to deal with the new params, which ended up as follows:
 
 ```
   def quantities_attributes=(quantities_attributes)
