@@ -8,7 +8,7 @@ permalink:  quickandeasyrecipes-_a_rails_app
 
 For my Rails project for the Flatiron School’s Online Full Stack Web Development Program, we were tasked with creating a Content Management System. We were tasked with building a complete Ruby on Rails application that manages related data through complex forms and RESTful routes. 
 
-My application, QuickAndEasyRecipes, aims to provide a simple interface for storing and sharing, you guessed it, quick and easy recipes. Users are able to create a new recipe and edit that recipe through the web interface. They can also see recipes that other users have created. Recipes are presented in a table that also shows the time it takes to make the recipe and the number of ingredients required. They can be sorted by name, by date added, and by shortest time to make. Users can also browse by ingredients used in recipes. 
+My application, QuickAndEasyRecipes, aims to provide a simple interface for storing and sharing, you guessed it, quick and easy recipes. Users are able to create a new recipe and edit that recipe through the web interface. They can also see recipes that other users have created. Recipes are presented in a table that also shows the time it takes to make the recipe and the number of ingredients required. They can be sorted by name, by date added, by shortest time to make, and by fewest ingredients. Users can also browse by ingredients used in recipes. 
 
 ![](https://i.imgur.com/GODWh9W.png?1)
 
