@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Fleddit- A React/Redux Application with a Rails Back End"
-date:       2019-01-17 15:23:39 +0000
+date:       2019-01-17 10:23:40 -0500
 permalink:  fleddit-_a_react_redux_application_with_a_rails_back_end
 ---
 
@@ -14,7 +14,7 @@ My first major hurdle was designing the overall architecture of the application 
 * “`/`“- This home page consists of a Welcome component that welcomed the user to the website and gave some context as to what to do there. 
 * “`/posts`”- This posts index page displays the `PostsIndexContainer` component, which iterates through the posts and displays a card for each of them (`PostPreview` component) with just the title of the post and the author. The user can then click on the title and be taken to the post show page (see below). The `PostsIndexContainer` also contains my `PostForm` component, into which the user can enter information and submit a new post. 
 * “`/posts/:postId`”- The post show page has a `PostsShowContainer` as the parent component to the `PostCard` component, which displays the full post, including title, author, content, and optional image. The `PostsShowContainer` also contains the `CommentsContainer`. The `CommentsContainer` filters through the comments and displays `CommentCard` components for each of the comments associated with the parent component’s post. It also contains a `CommentForm` component that the user can use to create a new comment. The `PostsShowContainer` passes down a prop of the target post’s id to the `CommentsContainer` so that only the appropriate comments are displayed, and so that the new comment created is associated with the appropriate post.
-* “/about”- This simple `About` component gives some context for the project, like the purpose it was created for and the technology used to create it. 
+* “`/about`”- This simple `About` component gives some context for the project, like the purpose it was created for and the technology used to create it. 
 
 Once I had the architecture of the site down, I was able to move on to creating my Rails back end.
 
