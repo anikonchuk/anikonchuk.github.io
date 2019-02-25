@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "'This' Can Be Confusing in JavaScript!"
-date:       2019-02-25 20:31:54 +0000
+date:       2019-02-25 15:31:55 -0500
 permalink:  this_can_be_confusing_in_javascript
 ---
 
@@ -185,4 +185,4 @@ As I have shown throughout this post, “this” can have many different meaning
 * In a function that is not tied to an object directly (including a function inside a function), “this” will refer to the global object.
 * If using “strict mode”, “this” will be undefined.
 * Arrow functions do not define their own context for this. Instead, “this” will refer to whatever context is defined by the parent context. 
-* You can use bind(), call(), and apply() to set the context of the this keyword.
+* You can use `bind()`, `call()`, and `apply()` to set the context of the "this" keyword.
