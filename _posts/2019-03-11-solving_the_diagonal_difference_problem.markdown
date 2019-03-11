@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Solving the Diagonal Difference Problem"
-date:       2019-03-11 13:40:15 +0000
+date:       2019-03-11 09:40:17 -0400
 permalink:  solving_the_diagonal_difference_problem
 ---
 
@@ -36,7 +36,7 @@ arr = [
 
 My first step to figuring out the problem was to try to start to find a pattern in what I was adding together. I started by making the following table:
 
-![](https://imgur.com/a/dfqo9d1)
+![](https://i.imgur.com/ImxusHM.png)
 
 I could start to see a pattern emerging. For the left-to-right diagonal, each additional number increased its first and second index by 1. For the right-to-left diagonal, the first index increased by one each additional number, and the second index decreased by one. The key would be to find a way to represent that second index in an iterative way.
 
@@ -62,7 +62,7 @@ The key now was to figure out the iterations and the relationship for the second
 
 I realized that the way to figure out the second index of the right-to-left diagonal was to integrate the length of the array into the iteration in my for loop.
 
-![](https://imgur.com/a/UdRak5L)
+![](https://i.imgur.com/iAGW03W.png)
 
 ## Writing the Solution
 
