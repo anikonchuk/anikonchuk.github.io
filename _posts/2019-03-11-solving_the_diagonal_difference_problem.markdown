@@ -19,7 +19,7 @@ As stated above, I was given a square matrix, which could be any size, and was t
 3  4  9  6
 ```
 
-The left-to-right diagonal would be 5 + 9 + 4 + 6 = 24. The right-to-left diagonal would be 2 + 1 + 7 + 3 = 13. The absolute difference would be | 24 - 13 | = 11, where the vertical bars (||) represent absolute value. 
+The left-to-right diagonal would be 5 + 9 + 4 + 6 = 24. The right-to-left diagonal would be 2 + 1 + 7 + 3 = 13. The absolute difference would be the absolute value of 24 - 13  = 11. 
 
 The matrix was given in the form of an array of arrays, like the following:
 
