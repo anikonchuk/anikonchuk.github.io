@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is JSX, Anyway?"
-date:       2019-03-26 14:12:59 +0000
+date:       2019-03-26 10:13:00 -0400
 permalink:  what_is_jsx_anyway
 ---
 
@@ -21,7 +21,7 @@ const user = {
 }
 
 function formatName(firstName, lastName) {
-	return `${firstName} {lastName}`
+	return `${firstName} ${lastName}`
 }
 
 render() {
